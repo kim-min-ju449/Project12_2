@@ -47,21 +47,43 @@
         android:layout_height="wrap_content">
         <Button
             android:id="@+id/btn_init"
+            android:textSize="10dp"
+            android:layout_weight="1"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginRight="10dp"
             android:text="@string/btn_init"/>
         <Button
             android:id="@+id/btn_input"
+            android:textSize="10dp"
+            android:layout_weight="1"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginRight="10dp"
             android:text="@string/btn_input"/>
         <Button
             android:id="@+id/btn_search"
+            android:textSize="10dp"
+            android:layout_weight="1"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_marginRight="10dp"
             android:text="@string/btn_search"/>
+        <Button
+            android:id="@+id/btn_delete"
+            android:textSize="10dp"
+            android:layout_weight="1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="10dp"
+            android:text="@string/btn_delete"/>
+        <Button
+            android:id="@+id/btn_update"
+            android:textSize="10dp"
+            android:layout_weight="1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/btn_update"/>
 
     </LinearLayout>
     <LinearLayout
